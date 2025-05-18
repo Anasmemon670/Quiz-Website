@@ -146,7 +146,7 @@ function ShowresultBox() {
     ScoreText.textContent = `Your Score ${UserScore} out of ${Questions.length}`;
 
     let UserNumber = document.querySelector(".score-Number");
-    UserNumber.textContent = `Total Numbers: ${UserScore * Questions.length}`;
+    UserNumber.textContent = `Total Numbers: ${`${UserScore}` * Questions.length}`;
 
     let circularProgress = document.querySelector(".circular-progress");
     let progressValue = document.querySelector(".progress-value");
